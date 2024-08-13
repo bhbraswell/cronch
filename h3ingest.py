@@ -51,7 +51,7 @@ BAND_GROUPS = {
     },
     "swir_rededge": {
         "resolution": 20.0,
-        "zoom": 11,
+        "zoom": 11.0,
         "bands": ["B05", "B06", "B07", "B11", "B12"],
     }
 }
@@ -132,8 +132,8 @@ def process_one_item(item):
         # parquet. I did this just to check out file sizes. Million-ish records, takes a minute.
         df.to_parquet(f"{item.id}.parquet")
 
-        # yep
-        breakpoint()
+    # yep
+    breakpoint()
 
 
 def main():
