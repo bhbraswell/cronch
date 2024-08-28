@@ -51,7 +51,7 @@ BAND_GROUPS = {
     },
     "swir_rededge": {
         "resolution": 20.0,
-        "zoom": 11.0,
+        "zoom": 11,
         "bands": ["B05", "B06", "B07", "B11", "B12"],
     }
 }
